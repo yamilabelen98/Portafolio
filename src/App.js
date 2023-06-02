@@ -1,14 +1,16 @@
 import React from 'react';
-import Projects from './Components/Projects';
-import CV from './Components/CV';
-import Contact from './Components/Contact';
+import Navbar from './Components/Navbar';
+import Skills from './Components/Skills';
+import Sobremi from './Components/Sobremi';
+import Inicio from './Components/Inicio';
 
 function App() {
   return (
     <div>
-      <Projects />
-      <CV />
-      <Contact />
+      <Navbar />
+      <Inicio id="inicio" />
+      <Sobremi id="sobremi"/>
+      <Skills/>
     </div>
   );
 }
